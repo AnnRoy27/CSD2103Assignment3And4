@@ -5,25 +5,25 @@ body {
     background-color: #f4f4f4;
 }
 
-.flex {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 nav {
     background-color: rgb(65, 56, 188);
     color: rgb(235, 228, 228);
     padding: 11px;
     text-align: center;
 }
-
-main {
-    margin: 20px;
+.flex {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 2em;
+}
+
+
+main {
+    margin: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5em;
 }
 
 .currency {
@@ -37,7 +37,7 @@ main {
     width: 10em;
     height: 4em;
     border: 1px solid rgb(65, 56, 188);
-    border-radius: 5px;
+    border-radius: 6px;
 }
 
 select {
@@ -45,16 +45,14 @@ select {
     appearance: none;
     width: 5em;
     color: rgb(235, 228, 228);
-    width: 5em;
     padding: 10px;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 1;
     border: 0;
-    border-radius: 5px;
-    height: 34px;
+    border-radius: 6px;
     background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat right rgb(65, 56, 188);
     -webkit-appearance: none;
-    background-position-x: 50px;
+    background-position-x: 52px;
 }
 
 .bttn {
@@ -62,10 +60,10 @@ select {
 }
 
 .bttn button {
-    width: 8em;
-    height: 4em;
-    border-radius: 500px;
-    font-size: 1rem;
+    width: 7em;
+    height: 3em;
     background-color:  rgb(65, 56, 188);
     color: rgb(235, 228, 228);
+    border-radius: 550px;
+    font-size: 1rem;
 }
